@@ -21,6 +21,7 @@
 		6A4FD02119ADDEB80025F42C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4FD00319ADDEB80025F42C /* UIKit.framework */; };
 		6A4FD02919ADDEB80025F42C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A4FD02719ADDEB80025F42C /* InfoPlist.strings */; };
 		6A4FD02B19ADDEB80025F42C /* BattlewWarsAwesome2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4FD02A19ADDEB80025F42C /* BattlewWarsAwesome2Tests.m */; };
+		6A4FD03619ADDFDA0025F42C /* Monst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4FD03519ADDFDA0025F42C /* Monst.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6A4FD02619ADDEB80025F42C /* BattlewWarsAwesome2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BattlewWarsAwesome2Tests-Info.plist"; sourceTree = "<group>"; };
 		6A4FD02819ADDEB80025F42C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A4FD02A19ADDEB80025F42C /* BattlewWarsAwesome2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattlewWarsAwesome2Tests.m; sourceTree = "<group>"; };
+		6A4FD03419ADDFDA0025F42C /* Monst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monst.h; sourceTree = SOURCE_ROOT; };
+		6A4FD03519ADDFDA0025F42C /* Monst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monst.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				6A4FD00E19ADDEB80025F42C /* BattleAppDelegate.h */,
 				6A4FD00F19ADDEB80025F42C /* BattleAppDelegate.m */,
 				6A4FD01119ADDEB80025F42C /* Main.storyboard */,
+				6A4FD03419ADDFDA0025F42C /* Monst.h */,
+				6A4FD03519ADDFDA0025F42C /* Monst.m */,
 				6A4FD01419ADDEB80025F42C /* BattleViewController.h */,
 				6A4FD01519ADDEB80025F42C /* BattleViewController.m */,
 				6A4FD01719ADDEB80025F42C /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				6A4FD01019ADDEB80025F42C /* BattleAppDelegate.m in Sources */,
 				6A4FD00C19ADDEB80025F42C /* main.m in Sources */,
 				6A4FD01619ADDEB80025F42C /* BattleViewController.m in Sources */,
+				6A4FD03619ADDFDA0025F42C /* Monst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
