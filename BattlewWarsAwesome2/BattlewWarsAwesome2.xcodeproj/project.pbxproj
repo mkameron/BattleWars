@@ -22,6 +22,10 @@
 		6A4FD02919ADDEB80025F42C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A4FD02719ADDEB80025F42C /* InfoPlist.strings */; };
 		6A4FD02B19ADDEB80025F42C /* BattlewWarsAwesome2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4FD02A19ADDEB80025F42C /* BattlewWarsAwesome2Tests.m */; };
 		6A4FD03619ADDFDA0025F42C /* Monst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4FD03519ADDFDA0025F42C /* Monst.m */; };
+		6A4FD03F19ADE0DE0025F42C /* QuizQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4FD03819ADE0DE0025F42C /* QuizQuestion.m */; };
+		6A4FD04019ADE0DE0025F42C /* QuizResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4FD03A19ADE0DE0025F42C /* QuizResults.m */; };
+		6A4FD04119ADE0DE0025F42C /* QuizTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4FD03C19ADE0DE0025F42C /* QuizTest.m */; };
+		6A4FD04219ADE0DE0025F42C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4FD03E19ADE0DE0025F42C /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,14 @@
 		6A4FD02A19ADDEB80025F42C /* BattlewWarsAwesome2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattlewWarsAwesome2Tests.m; sourceTree = "<group>"; };
 		6A4FD03419ADDFDA0025F42C /* Monst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monst.h; sourceTree = SOURCE_ROOT; };
 		6A4FD03519ADDFDA0025F42C /* Monst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monst.m; sourceTree = SOURCE_ROOT; };
+		6A4FD03719ADE0DE0025F42C /* QuizQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizQuestion.h; sourceTree = "<group>"; };
+		6A4FD03819ADE0DE0025F42C /* QuizQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizQuestion.m; sourceTree = "<group>"; };
+		6A4FD03919ADE0DE0025F42C /* QuizResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizResults.h; sourceTree = "<group>"; };
+		6A4FD03A19ADE0DE0025F42C /* QuizResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizResults.m; sourceTree = "<group>"; };
+		6A4FD03B19ADE0DE0025F42C /* QuizTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizTest.h; sourceTree = "<group>"; };
+		6A4FD03C19ADE0DE0025F42C /* QuizTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizTest.m; sourceTree = "<group>"; };
+		6A4FD03D19ADE0DE0025F42C /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		6A4FD03E19ADE0DE0025F42C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +128,14 @@
 			isa = PBXGroup;
 			children = (
 				6A4FD00E19ADDEB80025F42C /* BattleAppDelegate.h */,
+				6A4FD03719ADE0DE0025F42C /* QuizQuestion.h */,
+				6A4FD03819ADE0DE0025F42C /* QuizQuestion.m */,
+				6A4FD03919ADE0DE0025F42C /* QuizResults.h */,
+				6A4FD03A19ADE0DE0025F42C /* QuizResults.m */,
+				6A4FD03B19ADE0DE0025F42C /* QuizTest.h */,
+				6A4FD03C19ADE0DE0025F42C /* QuizTest.m */,
+				6A4FD03D19ADE0DE0025F42C /* User.h */,
+				6A4FD03E19ADE0DE0025F42C /* User.m */,
 				6A4FD00F19ADDEB80025F42C /* BattleAppDelegate.m */,
 				6A4FD01119ADDEB80025F42C /* Main.storyboard */,
 				6A4FD03419ADDFDA0025F42C /* Monst.h */,
@@ -255,9 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A4FD04219ADE0DE0025F42C /* User.m in Sources */,
 				6A4FD01019ADDEB80025F42C /* BattleAppDelegate.m in Sources */,
+				6A4FD04019ADE0DE0025F42C /* QuizResults.m in Sources */,
 				6A4FD00C19ADDEB80025F42C /* main.m in Sources */,
+				6A4FD03F19ADE0DE0025F42C /* QuizQuestion.m in Sources */,
 				6A4FD01619ADDEB80025F42C /* BattleViewController.m in Sources */,
+				6A4FD04119ADE0DE0025F42C /* QuizTest.m in Sources */,
 				6A4FD03619ADDFDA0025F42C /* Monst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
